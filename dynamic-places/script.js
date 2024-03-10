@@ -41,8 +41,8 @@ window.onload = () => {
         loadPlaces(position.coords)
             .then((places) => {
                 places.forEach((place) => {
-                    const latitude = place.location.lat;
-                    const longitude = place.location.lng;
+                    const latitude = -1.3374176497415426;
+                    const longitude = -48.39104125951983;
 
                     // add place name
                     const placeText = document.createElement('a-link');
